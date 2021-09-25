@@ -18,21 +18,9 @@ function multiply(a,b) {
   }
 console.log(multiply(2,4))
 
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
-
-//Age in Dog years
-/*
-Do the following:
-   1. Invoke the dogYears function below and pass an age value to it
-   2. Use the received value to calculate the age in dog years (1 human year is equal to 7 dog years)
-   3. Return the newly calculated age
-*/
-
-function dogYears(/*add your code here*/){
-    /*add your code here*/
+function dogYears(age){
+    return age * 7
 }
-
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
