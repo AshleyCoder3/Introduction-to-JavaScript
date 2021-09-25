@@ -1,68 +1,22 @@
-/*🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️ Task 1: Warm-up! 🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️🏋️‍♂️*/
 
-/*MAKE SURE TO RETURN ALL OF THE ANSWERS ON THESE TASKS, IF YOU DON'T, THE AUTOGRADER WILL NOT WORK*/
+const votingAge = 28
+console.log(votingAge >= 18)
 
-/*
-When doing these tasks, we recommend using console.log to test the output of your code to make sure it works correctly.
-This will usually entail console logging the answer directly or console logging the invocation (call) of the function so when it
-returns a value, that value will be logged to the console.  An example of this would be:  console.log(theFunction(value1,value2))
-*/
+let a = 6 //lets variable be changed.
+const b = 3
+if(a > b){
+    a = 30
+}
+console.log(a)
 
-/*
-Task 1a - Voting Age
+const year = '1999'
+let num = Number(year)
+console.log(num)
 
-Do the following:   
-   1. Create a variable called votingAge and assign it a value
-   2. Console log true if age is 18 or higher
-
-   HINT: no function required
-*/
-
-
-
-/*
-Task 1b - Values
-
-Do the following:   
-   1. Declare two variables and assign them values
-   2. Use a conditional to change the value of the 1st variable based on the value assigned to the 2nd variable
-   3. Console log the new value of the 1st variable
-
-   HINT: no function required
-*/
-
-
-
-
-
-/*
-Task 1c - Convert Strings to Numbers
-
-Do the following:   
-   1. Declare a string type variable with the value of "1999"
-   2. Convert the string value of "1999" to a integer value of 1999
-   3. Console log the result
-
-   HINT: look up the Number method
-*/
-
-
-
-
-/*
-Task 1d - Multiply
- 
-Do the following:   
-   1. Invoke the multiply function below and pass it two numbers
-   2. Receive the numbers in the parameters: a and b
-   3. Multiply a and b and return the answer
-*/
-
-function multiply(/*add your code here*/){
-    /*add your code here*/
+function multiply(a,b) {
+    return a * b
   }
-
-
+console.log(multiply(2,4))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
