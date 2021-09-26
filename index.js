@@ -69,19 +69,10 @@ function game(user, computer){
 function miles(kilo){
     return kilo * 0.621371
   }
-//Task 5b - Feet to CM
-/*
-Using the feet function below do the following:
-  1. Receive a number of cm
-  2. Convert the number of cm to feet
-  3. Return number of feet
-*/
 
-function feet(/*add your code here*/){
-    /*add your code here*/
+function feet(cm){
+   return cm / 30.48
   }
- 
-
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
