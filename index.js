@@ -65,26 +65,10 @@ function game(user, computer){
         return 'you lose!'
     }
 }
-  
-  
 
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
-
-//Metric Converter 
-//Task 5a - KM to Miles 
-/*
-Using the miles function below do the following:
-  1. Receive a number of kilometers
-  2. Convert the number of kiolmeters received to miles
-  3. Return the number of miles
-*/
-
-function miles(/*add your code here*/){
-    /*add your code here*/
+function miles(kilo){
+    return kilo * 0.621371
   }
-
-
-
 //Task 5b - Feet to CM
 /*
 Using the feet function below do the following:
